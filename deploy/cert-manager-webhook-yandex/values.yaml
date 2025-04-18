@@ -13,8 +13,8 @@ certManager:
   serviceAccountName: cert-manager
 
 image:
-  repository: cr.yandex/yc/cert-manager-webhook-yandex
-  # tag: latest
+  repository: cr.yandex/yc-marketplace/yandex-cloud/cert-manager-webhook-yandex/cert-manager-webhook-yandex1711961635594770953820309645949480358266192316354
+  #tag: 1.0.2
   pullPolicy: IfNotPresent
 
 nameOverride: ""
